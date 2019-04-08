@@ -2,7 +2,7 @@
 
 In this project, we analyze the frequency of words related illness in the articles and the relationship between the occurrence of actual diseases and find the actual diseases that have occurred and disappear.
 
-** Library: **
+Library:
  - KoNLPy.py
  - JPype1-0.6.3-cp36-cp36m-win_amd64.whl
 
