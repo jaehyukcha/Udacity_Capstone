@@ -2,4 +2,23 @@
 
 In this project, we analyze the frequency of words related illness in the articles and the relationship between the occurrence of actual diseases and find the actual diseases that have occurred and disappear.
 
-이 프로젝트에서는 쓰여진 기사 내용 안의 질병 관련 단어들의 빈도수와 실제 질병의 발생된 유무 관계를 분석하여 실제로 발생하고 사라진 전염병들을 확인한다. 앞으로 더 나아가 있을 전염병을 예방하기 위하여 전염병 발생하기 전 기사 내용 안에 전염병을 암시하는 어떤 전조적인 단어가 있는지에 대해 찾아보려 한다.
+** Library: **
+ - KoNLPy.py
+ - JPype1-0.6.3-cp36-cp36m-win_amd64.whl
+
+ 1. Download and install a JDK.
+
+ 2. Set JAVA_HOME.
+
+ 3. Download and install the JPype1 (>=0.5.7) that matches your bit version: win32  for 32 bit and win-amd64 for 64 bit. You may have to upgrade your pip in order to install the downloaded .whl file.
+ > pip install --upgrade pip
+ > pip install JPype1-0.5.7-cp27-none-win_amd64.whl
+
+ 4. From the command prompt, install KoNLPy.
+ > pip install konlpy
+
+Reference:
+ - https://konlpy-ko.readthedocs.io/ko/v0.4.3/
+ - https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype
+ - https://news.naver.com/
+ - http://www.cdc.go.kr/npt/
